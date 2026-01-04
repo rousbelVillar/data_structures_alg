@@ -1,0 +1,61 @@
+# =========================
+# CLion / JetBrains
+# =========================
+.idea/
+*.iml
+
+# =========================
+# CMake
+# =========================
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# =========================
+# Build artifacts
+# =========================
+build/
+bin/
+lib/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+
+# =========================
+# Debug / profiling
+# =========================
+*.log
+*.out
+*.gdb
+*.prof
+*.gcda
+*.gcno
+*.gcov
+
+# =========================
+# OS-specific
+# =========================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =========================
+# Misc
+# =========================
+.vscode/
