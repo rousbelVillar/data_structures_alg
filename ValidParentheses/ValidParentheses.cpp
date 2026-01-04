@@ -1,10 +1,11 @@
 #include "ValidParentheses.hpp"
 #include <iostream>
 #include <stack>
+using namespace std;
 
- bool ValidParentheses::isValid(std::string s) {
+ bool ValidParentheses::isValid(string s) {
      //I'm using the stack approach for this problem
-     std::stack <char> st;
+     stack <char> st;
 
      for (int i=0; i<s.length();i++){
          //Only push opening parentheses to the stack

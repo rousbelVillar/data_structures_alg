@@ -7,6 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(data_structures_alg
         main.cpp
         ValidParentheses/ValidParentheses.cpp
+        BaseballGame/BaseballGame.cpp
+        BaseballGame/BaseballGame.hpp
 )
 
 target_include_directories(data_structures_alg PRIVATE

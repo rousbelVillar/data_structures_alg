@@ -1,10 +1,11 @@
 #include <iostream>
 #include <stack>
 
-#include "ValidParentheses/ValidParentheses.hpp"
+#include "BaseballGame/BaseballGame.hpp"
 
 int main() {
-    ValidParentheses valid_parenthesis;
-    std::cout << valid_parenthesis.isValid("(){") <<std::endl;
+    BaseballGame game;
+    std::vector<std::string> operations = {"5","2","C","D","+"};
+    game.calpoints(operations);
     return 0;
-}
+};
