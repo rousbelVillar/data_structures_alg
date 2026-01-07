@@ -9,6 +9,8 @@ add_executable(data_structures_alg
         ValidParentheses/ValidParentheses.cpp
         BaseballGame/BaseballGame.cpp
         BaseballGame/BaseballGame.hpp
+        NimGame/NimGame.cpp
+        NimGame/NimGame.hpp
 )
 
 target_include_directories(data_structures_alg PRIVATE

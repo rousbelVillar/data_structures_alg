@@ -1,11 +1,12 @@
 #include <iostream>
 #include <stack>
+
+#include "NimGame/NimGame.hpp"
 using namespace std;
-#include "BaseballGame/BaseballGame.hpp"
 
 int main() {
-    BaseballGame game;
-    std::vector<std::string> operations = {"1","C"};
-    cout<<game.calpoints(operations);
+    NimGame game;
+    cout<<game.canWinNim(4)<<endl;
+
     return 0;
 };

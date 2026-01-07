@@ -12,8 +12,6 @@ using namespace std;
          if(s.at(i) == '(' || s.at(i) == '{' || s.at(i) == '['){
              st.push(s.at(i));
          } else{
-             //If we are here that means we have reacjed a closing parentheses
-             //If our stack is empty there's no point on continuing we return false
              if(st.empty()){
                  return false;
              }
@@ -32,6 +30,6 @@ using namespace std;
          }
      }
      return st.empty();
- }
+ };
 
 
