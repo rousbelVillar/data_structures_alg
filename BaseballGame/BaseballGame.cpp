@@ -35,4 +35,4 @@ int BaseballGame::calpoints(vector<string> &operations) {
         result += score;
     }
     return result;
-}
+};
