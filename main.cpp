@@ -1,11 +1,11 @@
 #include <iostream>
 #include <stack>
-
+using namespace std;
 #include "BaseballGame/BaseballGame.hpp"
 
 int main() {
     BaseballGame game;
-    std::vector<std::string> operations = {"5","2","C","D","+"};
-    game.calpoints(operations);
+    std::vector<std::string> operations = {"1","C"};
+    cout<<game.calpoints(operations);
     return 0;
 };
