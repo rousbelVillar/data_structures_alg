@@ -31,7 +31,7 @@ int BaseballGame::calpoints(vector<string> &operations) {
         }
     }
 
-    for (int score : scores) {
+    for (const int score : scores) {
         result += score;
     }
     return result;
